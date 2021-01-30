@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="parentDiv">
+        <div id="info">
+           <p style="color:white;">Same inputs returns true. <br> Diffirent ones returns false
+        <br>
+           Empty ones return error.
+        </p>
+        </div>
+        <div id="k">
+            <div id="ic">
+                <div id="header">
+                    <p id="headerPTag">
+                        Sign Up
+                    </p>
+
+                </div>
+                <div id="main">
+                    <div class="inputDiv">
+                        <p id="usernamePTag">
+                            Username
+                        </p>
+                        
+                        <input id="username" class="input" type="text" placeholder="username">
+                        
+                    </div>
+                    <div class="inputDiv">
+                        <p id="passwordPTag">
+                            Password
+                        </p>
+                        <input id="passwd" class="input"  type="text" placeholder="password">
+                        
+                    </div>
+
+                </div>
+                <div id="submitArea">
+                    <button id="submitButton" onclick="validate()">
+                        Sign Up!
+                    </button>
+
+                </div>
+            </div>
+            
+
+        </div>
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
